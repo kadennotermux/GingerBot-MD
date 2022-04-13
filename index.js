@@ -92,15 +92,15 @@ Kon = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURICom
 
 Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/97ad903ba5a233f75a751.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
                 if (anu.action == 'add') {
-                    XeonBotInc.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `Welcome To ${metadata.subject} @${num.split("@")[0]}
+                    XeonBotInc.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `Hᴇʏ Wᴇʟᴄᴏᴍᴇ Tᴏ ${metadata.subject}/n/nUsᴇʀɴᴀᴍᴇ@${num.split("@")[0]}
 
-Description: ${metadata.desc}
+/n/n🤩Gʀᴏᴜᴘ Dᴇsᴄʀɪᴘᴛɪᴏɴ: ${metadata.desc}
 
-Welcome To Our Comfortable Happy😋, Sometimes Loud😜, Usually Messy🤥, Full Of Love🥰, HOME😌!!`} )
+←-------ᏔᎬᏞᏟϴᎷᎬ------→`} )
                 } else if (anu.action == 'remove') {
-                    XeonBotInc.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `@${num.split("@")[0]} Left ${metadata.subject}
+                    XeonBotInc.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `Tʜɪs Gᴜʏ @${num.split("@")[0]} Left our Group ${metadata.subject}
 
-I'm not sure if it was a goodbye charm, but it was fun while it lasted 😌✨` })
+ /n/nWᴇ Wᴏɴᴛ Mɪss Yᴏᴜ😌✨` })
                 }
             }
         } catch (err) {
