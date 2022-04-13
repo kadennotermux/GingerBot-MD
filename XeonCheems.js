@@ -1,11 +1,6 @@
-//[© 2022 Xeon Bot Inc.]\\
+//[© Bot Inc.]\\
 
-//~you can re-upload but tag my channel
-//or put my channel link in the description.
-//~you can recode or copy the codes but give
-//credit.
-//~Thank you to LORD BUDDHA, ME AND MY 
-//FAMILY.
+// 𝑨𝒎๛𝑺𝒌͜͡𝑬𝒕𝒄𝒉𝒚
 
 //[modules]\\
 require('./config')
@@ -590,7 +585,7 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             }
             break
 	    case 'donasi': case 'donate': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
-                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/6ba2aed566865a068e91f.jpg' }, caption: `*Hi bro ${m.pushName}*\n\n Bot Rental Price\n⭔ 250INR Per Group via Gpay/paytm/phonepe 1 Month\n\nFor more details, you can chat with the owner\nhttps://wa.me/254792893310 (Owner)\n\nDonate Me : \n\n⭔ Fampay : https://telegra.ph/file/6ba2aed566865a068e91f.jpg\n⭔ Paytm : https://telegra.ph/file/577bd4f28d90ca2c7f369.jpg` }, { quoted: m })
+                XeonBotInc.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/97ad903ba5a233f75a751.jpg' }, caption: `*Hi bro ${m.pushName}*\n\n Bot Rental Price\n⭔ 300ksh Per Group via mpesa 1 Month\n\nFor more details, you can chat with the owner\nhttps://wa.me/254792893310 (Owner)\n\nDonate For Me : \n\n⭔ Mpesa : 0792893310\n⭔ Thank You` }, { quoted: m })
             }
             break
             case 'sc': case 'script': {
@@ -1209,7 +1204,7 @@ case 'antilink':
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://gingersketchy.netlify.app'
                                 }
                             }, {
@@ -1517,15 +1512,15 @@ case 'antilink':
                 let search = await yts(text)
                 let anu = search.videos[Math.floor(Math.random() * search.videos.length)]
                     ngen = `
-⭔ Title : ${anu.title}
-⭔ Ext : Search
-⭔ ID : ${anu.videoId}
-⭔ Duration : ${anu.timestamp}
-⭔ Viewers : ${anu.views}
-⭔ Uploaded : ${anu.ago}
-⭔ Author : ${anu.author.name}
-⭔ Channel : ${anu.author.url}
-⭔ Description : ${anu.description}
+⭔ 📛Title : ${anu.title}
+⭔ 🩸Ext : Search
+⭔ 🔋ID : ${anu.videoId}
+⭔ 🧭Duration : ${anu.timestamp}
+⭔ 👨🏻Viewers : ${anu.views}
+⭔ 🔝Uploaded : ${anu.ago}
+⭔ 😛Author : ${anu.author.name}
+⭔ 🔽Channel : ${anu.author.url}
+⭔ Description♂️ : ${anu.description}
 `
 message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { upload:   XeonBotInc.waUploadToServer })
                 template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
@@ -1533,7 +1528,7 @@ message = await prepareWAMessageMedia({ image : { url: anu.thumbnail } }, { uplo
                         hydratedTemplate: {
                             imageMessage: message.imageMessage,
                             hydratedContentText: ngen,
-                            hydratedFooterText: `Playing To ${text}`,
+                            hydratedFooterText: `Playing Request ${text}`,
                             hydratedButtons: [{
                                 urlButton: {
                                     displayText: '🖇Video Source Link🖇',
@@ -2376,7 +2371,7 @@ reply(`Successfully Reported To The Owner\n\nPlease Make Sure The Bug Is Valid, 
                     break 
 case 'tes': case 'test': case 'alive': case 'bot': case 'robot': case 'cheems': case 'doge':{
                 anu = `Hi ${pushname}
-GɪɴGᴇʀBᴏᴛWith You Forever!! 📟🤚`
+GɪɴGᴇʀBᴏᴛ With You Forever!! 📟🤚`
 const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                     templateMessage: {
                         hydratedTemplate: {
@@ -2386,7 +2381,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `GɪɴGᴇʀBᴏᴛMD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://youtube.com/channel/UCtQlmUwZ2qK2Ly2QPqpfNzQ'
                                 }
                             }, {
@@ -2396,12 +2391,12 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
+                                    displayText: '♀️All Menu♀️',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍒List Menu🍒',
+                                    displayText: '🟡List Menu🟡',
                                     id: `${prefix}command`
                                 }
                                 }, {
@@ -2446,7 +2441,7 @@ Please Select Button Below
 `,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://youtube.com/channel/UCtQlmUwZ2qK2Ly2QPqpfNzQ'
                                 }
                             }, {
@@ -2456,12 +2451,12 @@ Please Select Button Below
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '🍇All Menu🍇',
+                                    displayText: '♀️All Menu♀️',
                                     id: `${prefix}allmenu`
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🍒List Menu🍒',
+                                    displayText: '🟡List Menu🟡',
                                     id: `${prefix}command`
                                 }
                                 }, {
@@ -2616,7 +2611,7 @@ case 'grupmenu': {
                             hydratedFooterText: `GɪɴGᴇʀBᴏᴛMD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://youtube.com/channel/UCtQlmUwZ2qK2Ly2QPqpfNzQ'
                                 }
                             }, {
@@ -2658,7 +2653,7 @@ case 'downloadmenu': {
                             hydratedFooterText: `GɪɴGᴇʀBᴏᴛMD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://youtube.com/channel/UCtQlmUwZ2qK2Ly2QPqpfNzQ'
                                 }
                             }, {
@@ -2695,7 +2690,7 @@ case 'downloadmenu': {
                             hydratedFooterText: `GɪɴGᴇʀBᴏᴛMD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://youtube.com/channel/UCtQlmUwZ2qK2Ly2QPqpfNzQ'
                                 }
                             }, {
@@ -2726,7 +2721,7 @@ case 'randommenu': {
                             hydratedFooterText: `GɪɴGᴇʀBᴏᴛMD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://youtube.com/channel/UCtQlmUwZ2qK2Ly2QPqpfNzQ'
                                 }
                             }, {
@@ -2758,7 +2753,7 @@ case 'funmenu': {
                             hydratedFooterText: `GɪɴGᴇʀBᴏᴛMD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://youtube.com/channel/UCtQlmUwZ2qK2Ly2QPqpfNzQ'
                                 }
                             }, {
@@ -2798,7 +2793,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `GɪɴGᴇʀBᴏᴛMD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://youtube.com/channel/UCtQlmUwZ2qK2Ly2QPqpfNzQ'
                                 }
                             }, {
@@ -2832,7 +2827,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `GɪɴGᴇʀBᴏᴛMD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://youtube.com/channel/UCtQlmUwZ2qK2Ly2QPqpfNzQ'
                                 }
                             }, {
@@ -2890,7 +2885,7 @@ case 'horoscopemenukcodk': {
                             hydratedFooterText: `GɪɴGᴇʀBᴏᴛMD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://youtube.com/channel/UCtQlmUwZ2qK2Ly2QPqpfNzQ'
                                 }
                             }, {
@@ -2928,7 +2923,7 @@ case 'convertmenu': {
                             hydratedFooterText: `GɪɴGᴇʀBᴏᴛMD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://youtube.com/channel/UCtQlmUwZ2qK2Ly2QPqpfNzQ'
                                 }
                             }, {
@@ -2968,7 +2963,7 @@ case 'nocategorymenu': {
                             hydratedFooterText: `GɪɴGᴇʀBᴏᴛMD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://youtube.com/channel/UCtQlmUwZ2qK2Ly2QPqpfNzQ'
                                 }
                             }, {
@@ -3005,7 +3000,7 @@ case 'databasemenu': {
                             hydratedFooterText: `GɪɴGᴇʀBᴏᴛMD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://youtube.com/channel/UCtQlmUwZ2qK2Ly2QPqpfNzQ'
                                 }
                             }, {
@@ -3037,7 +3032,7 @@ case 'anonymouschatmenu': {
                             hydratedFooterText: `GɪɴGᴇʀBᴏᴛMD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://youtube.com/channel/UCtQlmUwZ2qK2Ly2QPqpfNzQ'
                                 }
                             }, {
@@ -3069,7 +3064,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `GɪɴGᴇʀBᴏᴛMD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://youtube.com/channel/UCtQlmUwZ2qK2Ly2QPqpfNzQ'
                                 }
                             }, {
@@ -3106,7 +3101,7 @@ break
                             hydratedFooterText: `GɪɴGᴇʀBᴏᴛMD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://youtube.com/channel/UCtQlmUwZ2qK2Ly2QPqpfNzQ'
                                 }
                             }, {
@@ -3247,7 +3242,7 @@ break
                             hydratedFooterText: `GɪɴGᴇʀBᴏᴛMD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'YouTube📍',
+                                    displayText: 'YouTube🎦',
                                     url: 'https://youtube.com/channel/UCtQlmUwZ2qK2Ly2QPqpfNzQ'
                                 }
                             }, {
@@ -3265,10 +3260,11 @@ break
 case 'tqtt': 
 reply(`Thanks to
 GoD
-GingerSketchy
-Xeon-Base
-Dika
-And all friends who helped assemble this sexy script !!!`)
+𝑨𝒎๛𝑺𝒌͜͡𝑬𝒕𝒄𝒉𝒚
+GingerSketchy Pals
+Dream Guy-Base
+Dika Ar
+And all friends who use GɪɴGᴇʀBᴏᴛMD !!!`)
 break
             default:
                 if (budy.startsWith('=>')) {
