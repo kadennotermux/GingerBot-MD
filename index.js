@@ -30,7 +30,7 @@ async function startXeonBotInc() {
     const XeonBotInc = XeonBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: ['GɪɴGᴇʀBᴏᴛMD','Safari','1.0.0'],
+        browser: ['Sketchy','Safari','1.0.0'],
         auth: state,
         version
     })
@@ -92,15 +92,11 @@ Kon = await getBuffer(`https://hardianto.xyz/api/welcome3?profile=${encodeURICom
 
 Tol = await getBuffer(`https://hardianto.xyz/api/goodbye3?profile=${encodeURIComponent(ppuser)}&name=${encodeURIComponent(nama)}&bg=https://telegra.ph/file/97ad903ba5a233f75a751.jpg&namegb=${encodeURIComponent(metadata.subject)}&member=${encodeURIComponent(memb)}`)
                 if (anu.action == 'add') {
-                    XeonBotInc.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `Hᴇʏ Wᴇʟᴄᴏᴍᴇ Tᴏ ${metadata.subject}/n/nUsᴇʀɴᴀᴍᴇ@${num.split("@")[0]}
-
-/n/n🤩Gʀᴏᴜᴘ Dᴇsᴄʀɪᴘᴛɪᴏɴ: ${metadata.desc}
+                    XeonBotInc.sendMessage(anu.id, { image: Kon, contextInfo: { mentionedJid: [num] }, caption: `Hᴇʏ Wᴇʟᴄᴏᴍᴇ Tᴏ ${metadata.subject}/nUsᴇʀɴᴀᴍᴇ@${num.split("@")[0]}/n/n🤩Gʀᴏᴜᴘ Dᴇsᴄʀɪᴘᴛɪᴏɴ: ${metadata.desc}
 
 ←-------ᏔᎬᏞᏟϴᎷᎬ------→`} )
                 } else if (anu.action == 'remove') {
-                    XeonBotInc.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `Tʜɪs Gᴜʏ @${num.split("@")[0]} Left our Group ${metadata.subject}
-
- /n/nWᴇ Wᴏɴᴛ Mɪss Yᴏᴜ😌✨` })
+                    XeonBotInc.sendMessage(anu.id, { image: Tol, contextInfo: { mentionedJid: [num] }, caption: `Tʜɪs Gᴜʏ @${num.split("@")[0]}/nLeft our Group ${metadata.subject}/nWᴇ Wᴏɴᴛ Mɪss Yᴏᴜ😌✨` })
                 }
             }
         } catch (err) {
